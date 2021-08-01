@@ -1,0 +1,29 @@
+<head>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/page-size.css">
+    <%- include('../partials/title.ejs') %>
+</head>
+
+<body>
+    <%- include('../partials/header.ejs') %>
+    
+    <div class="login-form">
+        <div class="form">
+            <h1>Đăng kí</h1>
+            <label for="name" class="name">Tên:</label>
+            <input type="text" id="name" type="text" placeholder="Tên" required>
+            <label for="username" class="username">Email:</label>
+            <input type="text" id="username" type="email" placeholder="Email">
+            <label for="username" class="username">Tên đăng nhập:</label>
+            <input type="text" id="username" type="text" placeholder="Tên đăng nhập" required>
+            <label for="password" class="password">Mật khẩu: </label>
+            <input type="text" id="password" type="password" placeholder="Mật khẩu" required>
+            <label for="password" class="password">Xác nhận mật khẩu: </label>
+            <input type="text" id="password" type="password" placeholder="Nhập lại mật khẩu" required   >
+            <button class="login-btn" type="submit">Đăng kí</button>
+            <a href="/login" class="login">Đã có tài khoản ?</a>
+
+        </div>
+        
+    </div>
+</body>

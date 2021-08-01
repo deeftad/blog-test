@@ -1,0 +1,17 @@
+.login-form {
+  width: 50%;
+  height: 45vh;
+  margin-top: 35vh;
+  position: absolute;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
+}
